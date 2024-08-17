@@ -1,7 +1,11 @@
 <template>
-  <div><p>Product</p></div>
+  <div><p>Products</p></div>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "products",
+});
+</script>
 
 <style scoped></style>
